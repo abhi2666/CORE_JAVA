@@ -1,5 +1,6 @@
 package Unit_01;
 
+import java.util.Scanner;
 
 /* Problem Statement: P7_SwitchStatements: 
    Create a switch statement [Manual], In Which:
@@ -22,8 +23,24 @@ public class P7_SwitchStatement {
 
 class SwitchStatements {
 	void switchStatements() {
+		Scanner ob = new Scanner(System.in);
+		int a = ob.nextInt(); // to take an integer value
 		
-		// Write Logic here!
+		switch(a)
+		{
+		case 1:
+			System.out.println("2022");
+			break;
+		case 2:
+			System.out.println("April");
+			break;
+		case 3:
+			System.out.println("Sunday");
+			break;
+		case 4:
+			System.out.println("Not Applicable");
+		}
+		
 		
 	}
 }
