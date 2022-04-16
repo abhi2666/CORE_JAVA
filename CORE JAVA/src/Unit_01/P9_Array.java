@@ -141,8 +141,7 @@ class QuestionsOnArray {
 						a[i] = a[i + 1];
 						i++;
 						
-					}
-					n--;
+					}					n--;
 				}
 							
 				break;
