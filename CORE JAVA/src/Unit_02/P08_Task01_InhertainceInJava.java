@@ -56,6 +56,7 @@ class Two extends One { // Inherited the class One
 		super(3);
 		b = x;
 		System.out.println("Two");
+		System.out.println("hello");
 	}
 
 	public void methodTwo() {
