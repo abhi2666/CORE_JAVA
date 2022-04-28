@@ -1,4 +1,4 @@
-package Assignement_01;
+package Assignment_01;
 
 // Delete element from array at particular index
 public class Ques8 {
