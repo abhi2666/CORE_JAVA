@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	String p;
 	int l,m,n,o;
 	
-	for(int i=0;i<4;i++)
+	for(int i=0;i<2;i++)
 	{
 		System.out.println("Enter the name of the city");
 		p=obj.nextLine();

@@ -16,7 +16,7 @@ interface Animal{
 	public void run();// interface method (does not have a body)
 }
 
-interface Human{
+interface Human {
 	public void  humanSound();// interface method (does not have a body)
 	public void run1();// interface method (does not have a body)
 	
@@ -35,16 +35,8 @@ public class P12_Task01_InterfaceInJava {
 
 	}
 
-	public void animalSound() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void run() {
-		// TODO Auto-generated method stub
-		
-	}
 }
+
 
 //Multiple interfaces can be implemented at the same time!
 class Species implements Animal, Human {

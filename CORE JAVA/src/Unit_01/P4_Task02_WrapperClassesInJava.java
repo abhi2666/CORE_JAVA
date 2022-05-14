@@ -1,7 +1,7 @@
 
 /*
  * 
- * The Wrapper class in java provides the mechanism to conver primitive data types
+ * The Wrapper class in java provides the mechanism to convert primitive data types
  * into object and we do this because ---
  * we want to use predefined methods of those objects
  * 

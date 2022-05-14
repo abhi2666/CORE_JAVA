@@ -10,6 +10,7 @@ public class Ques6 {
 		int b = s.nextInt();
 		
 		a = (a > b)?obj.add(a, b):obj.sub(a, b);
+		System.out.println("Result is "+ a);
 	}
 
 }

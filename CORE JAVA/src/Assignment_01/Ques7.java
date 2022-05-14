@@ -10,6 +10,7 @@ public class Ques7 {
 		Employee1 obj3 = new Employee1();
 		obj2.display();
 		obj3.display();
+		obj1.print();
 
 	}
 }
@@ -30,6 +31,6 @@ class Employee1
 	
 	void print()
 	{
-		System.out.println("Object count "+ object_count + "method count "+method_count);
+		System.out.println("Object count "+ object_count + "\nmethod count "+method_count);
 	}
 }

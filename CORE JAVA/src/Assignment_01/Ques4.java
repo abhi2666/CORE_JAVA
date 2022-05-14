@@ -1,15 +1,11 @@
 package Assignment_01;
 
 public class Ques4 {
-
 	public static void main(String[] args) {
 		ClassThree obj = new ClassThree(1);
 		ClassThree obj1 = new ClassThree();
-
 	}
-
 }
-
 class ClassOne
 {
 	ClassOne(int x)
@@ -17,7 +13,6 @@ class ClassOne
 		System.out.println("inside first class"+ x);
 	}
 }
-
 class ClassTwo extends ClassOne
 {
 	ClassTwo()
@@ -26,7 +21,6 @@ class ClassTwo extends ClassOne
 		System.out.println("Inside second class");
 	}
 }
-
 class ClassThree extends ClassTwo
 {
 	ClassThree(int y)

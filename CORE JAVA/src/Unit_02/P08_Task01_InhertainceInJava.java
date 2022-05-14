@@ -18,7 +18,7 @@ Unit_02;
  	and to recover the features of Multiple Inheritance we use Interface(Java's Own Concept)
  	
  	 
- 	 About the constructor -- the constructor of Super class will execute first after that of child class will execute
+ 	 About the constructor -- the constructor of Super class will execute first after that of child class will execute.
 */
 public class P08_Task01_InhertainceInJava {
 

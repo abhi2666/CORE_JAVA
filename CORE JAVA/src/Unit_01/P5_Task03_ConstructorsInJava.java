@@ -32,10 +32,12 @@ class ABC4
 	 * All the class and Instance variables can be initialized here !
 	 * }
 	 */
+	//  No duplicate constructor is possible
 	ABC4()
 	{
-		a = 10;
+		System.out.println("first");
 	}
+
 	ABC4(int a)
 	{
 		this.a = a;

@@ -16,7 +16,7 @@ public class Ques9 {
 
 // You can make a class Public or leave it default or make it abstract or final but you cannot make a class private or protected...
 
-private class rom //Illegal modifier for the class rom; only public, abstract & final are permitted
+ class rom //Illegal modifier for the class rom; only public, abstract & final are permitted
 {
 	//
 }

@@ -7,7 +7,7 @@ public class P5_Task02_MethodsInJava {
 		ABC3 obj = new ABC3();
 		
 		// calling display method/function
-		obj.display();
+		ABC3.display(); /// to call static function use class name and for non-static use objects...
 		System.out.println(obj.a); // accessing static var. with object is wrong approach
 		// Use class name to access it
 	}
@@ -35,7 +35,7 @@ class ABC3
 		 System.out.println(a);
 	}
 	
-	int display2()
+	static int display2()
 	{
 		System.out.println(a);
 		//As a was a local variable so we can not access it outside the method where it is init..
